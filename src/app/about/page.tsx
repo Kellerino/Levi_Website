@@ -7,7 +7,7 @@ export default function Contact() {
       <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
         <div className="md:5/12 lg:w-5/12">
           <Image 
-                        src="/gallery/FIB01307.jpg"
+                        src="/public/gallery/FIB01307.jpg"
                         width={400}
                         height={1}
                         className="object-cover"
