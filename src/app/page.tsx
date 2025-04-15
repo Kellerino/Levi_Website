@@ -1,4 +1,4 @@
-import Playback from "./ui/playback"
+import Playback from "../components/ui/Playback"
 
 export default function Home() {
   return(

@@ -13,14 +13,15 @@ export default function Navbar() {
   const navLinks = [
     { name: 'Home', href: '/' },
     { name: 'Concerts', href: '/concerts' },
-    { name: 'About', href: '/about' },
+    { name: 'About Levi', href: '/about' },
+    { name: 'Booking', href: '/booking' },
     { name: 'Contact', href: '/contact' },
     { name: 'Gallery', href: '/gallery' },
   ];
 
   return (
-    <header className="bg-white shadow-sm sticky top-0 z-50">
-      <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <header className="bg-black shadow-sm sticky top-0 z-50">
+      <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 border-purple-700">
         <div className="flex h-16 items-center justify-between">
           {/* Logo - hidden on mobile */}
           <div className="flex-shrink-0 md:block hidden">
@@ -62,8 +63,8 @@ export default function Navbar() {
                   href={link.href}
                   className={`px-3 py-2 rounded-md text-sm font-medium ${
                     pathname === link.href
-                      ? 'bg-indigo-100 text-indigo-700'
-                      : 'text-gray-700 hover:bg-gray-100 hover:text-gray-900'
+                      ? 'bg-purple-100 text-indigo-700'
+                      : 'text-white-700 hover:bg-gray-100 hover:text-gray-900'
                   }`}
                 >
                   {link.name}
